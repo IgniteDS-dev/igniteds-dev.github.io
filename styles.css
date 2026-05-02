@@ -134,6 +134,14 @@ nav a:hover { color: var(--accent); }
    SECTIONS
    ========================= */
 
+.about-copy p {
+  max-width: 620px;
+}
+
+.about-copy p + p {
+  margin-top: 0.75rem;
+}
+
 #about {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -334,6 +342,20 @@ nav a:hover { color: var(--accent); }
 
 .project-detail-cta {
   margin-top: 1.5rem;
+}
+
+.back-link {
+  grid-column: 1 / -1;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.back-link:hover {
+  color: var(--accent);
 }
 
 /* =========================
